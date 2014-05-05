@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="../bower_components/flat-ui/css/bootstrap.css"/>
+  <link rel="stylesheet" href="../bower_components/flat-ui/css/flat-ui.css">
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="#/view1">view1</a></li>
+    <li><a href="#/view2">view2</a></li>
+  </ul>
+  <div ng-view></div>
+  <div>Angular seed app: v1</div>
+  <div>
+          <h3 class="demo-panel-title">Buttons</h3>
+
+      <div class="row demo-row">
+        <div class="span3">
+          <a href="#" class="btn btn-large btn-block">Default Button</a>
+        </div>
+        <div class="span3">
+          <a href="#" class="btn btn-large btn-block btn-primary">Primary Button</a>
+        </div>
+        <div class="span3">
+          <a href="#" class="btn btn-large btn-block btn-info">Info Button</a>
+        </div>
+        <div class="span3">
+          <a href="#" class="btn btn-large btn-block btn-danger">Danger Button</a>
+        </div>
+      </div> <!-- /row -->
+
+      <div class="row demo-row">
+        <div class="span3">
+          <a href="#" class="btn btn-large btn-block btn-success">Success Button</a>
+        </div>
+        <div class="span3">
+          <a href="#" class="btn btn-large btn-block btn-warning">Warning Button</a>
+        </div>
+        <div class="span3">
+          <a href="#" class="btn btn-large btn-block btn-inverse">Inverse Button</a>
+        </div>
+        <div class="span3">
+          <a href="#" class="btn btn-large btn-block disabled">Disabled Button</a>
+        </div>
+      </div> <!-- /row -->
+  </div>
+  <script src="../bower_components/requirejs/require.js" data-main="js/main.js"></script>
+</body>
+</html>

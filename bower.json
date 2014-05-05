@@ -1,0 +1,28 @@
+{
+  "name": "58crazy",
+  "description": "58crazy frontend",
+  "version": "1.0",
+  "homepage": "https://github.com/CraryPrimitiveMan/angular-requirejs-uibootstrap-flatui-seed",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "*",
+    "angular-route": "*",
+    "requirejs": "*",
+    "requirejs-domready": "*",
+    "angular-bootstrap" : "*"
+  },
+  "authors": [
+    "Harry Sun <sgj773624926@sina.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
