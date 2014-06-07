@@ -1,4 +1,4 @@
-angular-requirejs-uibootstrap-flatui-seed
+angular-requirejs-uibootstrap-seed
 =========================================
 
-基于angular+requirejs+ui bootstrap+flat ui的项目
+基于angular+requirejs+ui bootstrap的项目
